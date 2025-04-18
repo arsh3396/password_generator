@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+    background-color: #e6f2ff; /* Light Blue */
+    color: #4d4d4d; /* Medium Gray */
+    font-family: "Roboto Mono", monospace;
+}
+
+.generator {
+    background-color: #f9f9f9; /* Very Light Gray */
+    width: 250px;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.password {
+    display: grid;
+    grid-template-columns: auto min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.password input {
+    padding: 7px 10px;
+    background-color: #d9d9d9; /* Light Gray */
+    border: 0;
+    color: #4d4d4d; /* Medium Gray */
+}
+
+button {
+    background-color: #8cd3ff; /* Soft Sky Blue */
+    color: #fff; /* White */
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 10px;
+}
+
+div.password button {
+    border-radius: 0;
+}
+
+div.range {
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
